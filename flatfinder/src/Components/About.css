@@ -1,0 +1,48 @@
+.about-container {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    background-image: url('/public/img/aboutbg.jpg'); /* Adjust the path accordingly */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color:black; /* Text color to contrast with the background */
+  }
+  
+  h1, h2 {
+    color:rgb(16, 3, 3); /* Ensure headings are visible against the background */
+    text-align: center;
+  }
+  
+  .aboutpara {
+    font-size: 1.1em;
+    line-height: 1.6;
+    color:black; /* Ensure paragraphs are visible against the background */
+  }
+  
+  .aboutul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .aboutli {
+    background: rgba(222, 188, 188, 0.5); /* Semi-transparent background for better readability */
+    margin: 10px 0;
+    padding: 10px;
+    color:black; /* Ensure list items are visible against the background */
+  }
+  
+  .abouta {
+    color: #007BFF;
+    text-decoration: none;
+  }
+  
+  .abouta:hover {
+    text-decoration: underline;
+  }
+  
+  .text-center {
+    text-align: center;
+  }
+  

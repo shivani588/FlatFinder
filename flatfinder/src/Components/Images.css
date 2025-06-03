@@ -1,0 +1,15 @@
+
+.g{
+    height: 300px;
+}
+.gc{
+    transition: transform  0.3 ease ,box-shadow 0.3s ease;
+
+}
+.gc:hover{
+    transform: scale(1.05);
+    box-shadow:0 4px 8px rgb(red, green, blue)
+}
+.row{
+    color:rgb(162, 132, 157)!important;
+}

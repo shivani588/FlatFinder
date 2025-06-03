@@ -1,0 +1,156 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+*{
+  font-family: "Ubuntu", sans-serif;;
+}
+
+.hero-container {
+    background-image: url('https://i.pinimg.com/originals/4b/75/4e/4b754efabc41aa029a0d56a90bd1ecbf.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .hero-container::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    
+  }
+  
+  .hero-content {
+    position: relative;
+    z-index: 2;
+    max-width: 800px;
+    margin: 0 auto;
+    left: 400px;
+    bottom: 28%;
+  }
+  
+  .hero-container h1 {
+    font-size: 4rem;
+    margin-bottom: 1rem;
+    font-weight: bold;
+    
+  }
+  
+  .hero-container p {
+    font-size: 1.0rem;
+    margin-bottom: 2rem;
+  }
+  
+ 
+  
+.services-container {
+  padding: 4rem 2rem;
+  background-color: #f8f9fa;
+  min-height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.services-content {
+  max-width: 1800px;
+  background: #fff;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.services-content h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.services-content h2 {
+  font-size: 2rem;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+
+.services-content p {
+  font-size: 1.2rem;
+  line-height: 1.6;
+  margin-bottom: 1rem;
+}
+
+.service-item {
+  margin-bottom: 2rem;
+}
+
+.service-item h2 {
+  color: #007bff;
+}
+
+
+
+
+.ameni{
+  background-color: #ced9e5;
+  height: 700px;
+  padding:50px;
+}
+.div1{
+  height: 500px;
+  width: 600px;
+  background-color: #ced9e5;
+  margin-top: 30px;
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+/* @keyframes glitter {
+  0% {
+    background-position: 0% 50%;
+  }
+  100% {
+    background-position: 100% 50%;
+  }
+} */
+
+/* .glitter-text {
+  background: linear-gradient(90deg, #ffffff, #a43861af, #ffffff); */
+  /* background-size: 200% 200%;
+  animation: glitter 2s infinite;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.body{
+  background-color: rgb(147, 170, 170);
+  /* background-image: url("https://media.istockphoto.com/id/472336288/photo/out-of-focus-office-open-corridor-background.webp?b=1&s=170667a&w=0&k=20&c=58u4zZutZVSrXt9wK2Ozuri14jq8865zKe48S-uZL_o="); */
+  /* background-position: center;
+  background-repeat: no-repeat;
+  
+
+} */ */
+.para{
+  text-align: center;
+  font-family:cursive;
+}
+.heading{
+  text-align: center;
+  margin: 24px;
+  font-family:cursive;
+}
+.img1{
+  height: 400px;
+  width: 400px;
+}
+.container2{
+  display: flex;
+  flex-wrap: wrap;
+  font-family: cursive;
+  font-size:20px;
+  font-weight: bold;
+}

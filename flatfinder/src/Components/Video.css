@@ -1,0 +1,36 @@
+.vidimg {
+    height: 180px;
+    width: 100%;
+    object-fit: cover;
+  }
+  
+  .video-container {
+    position: relative;
+    text-align: center;
+  }
+  
+  .video-responsive {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+  }
+  
+  .controls {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  
+  .butan {
+    background: none;
+    border: none;
+    color: #28a745;
+    font-size: 2rem;
+    cursor: pointer;
+    height: 20px;
+    width: 20px;
+    background-color:white;
+    border-radius: 50%;
+  margin-bottom: 450px;
+  }
