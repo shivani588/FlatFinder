@@ -14,7 +14,6 @@ The backend is built using **Node.js** and **Express**, and it uses **MongoDB** 
 
 ---
 
----
 
 ## 🔧 Technologies Used
 
@@ -84,7 +83,7 @@ The server will run on `http://localhost:5000` (or as defined in your `.env` fil
 If you're working on the frontend separately, follow these steps:
 
 ```bash
-cd ../frontend
+cd ../flatfinder
 npm install
 npm start
 ```
@@ -109,9 +108,4 @@ MIT License
 
 ---
 
-## 🔗 GitHub
 
-[🔗 FlatFinder Repository](https://github.com/shivani588/FlatFinder)
-
-
-```
