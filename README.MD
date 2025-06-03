@@ -14,22 +14,6 @@ The backend is built using **Node.js** and **Express**, and it uses **MongoDB** 
 
 ---
 
-## 🗂️ Project Structure
-
-FlatFinder/
-├── backend/
-│ ├── models/
-│ ├── routes/
-│ ├── controllers/
-│ ├── .env
-│ ├── server.js
-├── frontend/ # if present
-├── README.md
-
-yaml
-Copy
-Edit
-
 ---
 
 ## 🔧 Technologies Used
