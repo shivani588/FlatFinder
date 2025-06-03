@@ -1,13 +1,6 @@
-Here is your cleaned-up and properly formatted **README.md** file with all sections merged into **one seamless document**:
-
----
-
-````markdown
 # 🏢 FlatFinder Backend
 
 FlatFinder is a modern web-based platform that simplifies the process of finding flats for rent or purchase. This repository contains the **backend server** for the FlatFinder application.
-
----
 
 ## 🚀 Introduction
 
@@ -21,6 +14,35 @@ The backend is built using **Node.js** and **Express**, and it uses **MongoDB** 
 
 ---
 
+## 🗂️ Project Structure
+
+FlatFinder/
+├── backend/
+│ ├── models/
+│ ├── routes/
+│ ├── controllers/
+│ ├── .env
+│ ├── server.js
+├── frontend/ # if present
+├── README.md
+
+yaml
+Copy
+Edit
+
+---
+
+## 🔧 Technologies Used
+
+- **Node.js** – JavaScript runtime
+- **Express** – Backend framework
+- **MongoDB** – NoSQL database
+- **Mongoose** – ODM for MongoDB
+- **Dotenv** – Environment variable management
+- **CORS & Body-Parser** – Middleware for handling requests
+
+---
+
 ## ⚙️ Getting Started
 
 ### 1. Clone the Repository
@@ -28,7 +50,6 @@ The backend is built using **Node.js** and **Express**, and it uses **MongoDB** 
 ```bash
 git clone https://github.com/shivani588/FlatFinder.git
 cd FlatFinder
-````
 
 ### 2. Navigate to the Backend
 
